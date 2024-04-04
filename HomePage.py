@@ -6,7 +6,7 @@ from streamlit_lottie import st_lottie
 st.title('MEAL RECOMMENDATION SYSTEM')
 
 # Load CSS from a file
-with open('C:/Users/athar/Desktop/BE_PROJECT/style1.css') as f:
+with open('style1.css') as f:
     css = f.read()
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
@@ -34,7 +34,7 @@ st.markdown("""
 # Add a button to execute another Python file when clicked
 if st.button("Let's find the best for you!!"):
     # Specify the path to the Python file you want to run
-    another_file_path = "C:/Users/athar/Desktop/BE_PROJECT/Meal_Recommender.py"
+    another_file_path = "Meal_Recommender.py"
     
     # Use subprocess to run the streamlit command
     subprocess.run(["streamlit", "run", another_file_path])
