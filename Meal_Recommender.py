@@ -6,7 +6,8 @@ from sklearn.neighbors import NearestNeighbors
 from scipy.stats import pearsonr
 
 # Load data
-df = pd.read_csv('new_mcdonaldata.csv')
+path = get("new_mcdonaldata.csv")
+df = pd.read_csv(path)
 
 # Preprocessing for content-based filtering
 df['calories_from_protein'] = df['protien'] * 4
