@@ -34,7 +34,7 @@ st.markdown("""
 # Add a button to execute another Python file when clicked
 if st.button("Let's find the best for you!!"):
     # Specify the path to the Python file you want to run
-    another_file_path = "Meal_Recommender.py"
+    another_file_path = get("./Meal_Recommender.py")
     
     # Use subprocess to run the streamlit command
     subprocess.run(["streamlit", "run", another_file_path])
