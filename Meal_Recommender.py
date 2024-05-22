@@ -7,7 +7,7 @@ from scipy.stats import pearsonr
 
 # Load data
 path = "https://github.com/Mayuresh2703/Meal_Recommendation_System/blob/main/mcdonaldata.csv"
-df = pd.read_csv(path)
+df = pd.read_csv(path,on_bad_lines='skip')
 
 # Preprocessing for content-based filtering
 df['calories_from_protein'] = df['protien'] * 4
