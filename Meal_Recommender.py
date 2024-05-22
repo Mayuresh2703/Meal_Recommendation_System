@@ -6,7 +6,7 @@ from sklearn.neighbors import NearestNeighbors
 from scipy.stats import pearsonr
 
 # Load data
-path = "https://github.com/Mayuresh2703/Meal_Recommendation_System/blob/main/new_mcdonaldata.csv"
+path = "https://github.com/Mayuresh2703/Meal_Recommendation_System/blob/main/mcdonaldata.csv"
 df = pd.read_csv(path)
 
 # Preprocessing for content-based filtering
