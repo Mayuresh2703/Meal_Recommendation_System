@@ -38,5 +38,5 @@ if st.button("Let's find the best for you!!"):
     
     # Use subprocess to run the streamlit command
     # subprocess.run(["streamlit", "run", another_file_path])
-    switch_page(another_file_path)
+    switch_page_button("Switch to another page", another_file_path)
 
