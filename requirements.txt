@@ -6,3 +6,4 @@ scipy>=1.9.3
 streamlit-lottie
 altair>=4.2.2,<5.0.0
 click>=8.0.0,<8.1.7
+streamlit-extras==0.3.0
