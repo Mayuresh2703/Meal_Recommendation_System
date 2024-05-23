@@ -37,4 +37,6 @@ if st.button("Let's find the best for you!!"):
     another_file_path = "https://github.com/Mayuresh2703/Meal_Recommendation_System/blob/main/Meal_Recommender.py"
     
     # Use subprocess to run the streamlit command
-    subprocess.run(["streamlit", "run", another_file_path])
+    # subprocess.run(["streamlit", "run", another_file_path])
+    switch_page(another_file_path)
+
