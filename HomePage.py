@@ -2,7 +2,7 @@ import json
 import subprocess
 import streamlit as st
 from streamlit_lottie import st_lottie
-
+from streamlit_extras.switch_page_button import switch_page
 st.title('MEAL RECOMMENDATION SYSTEM')
 
 # Load CSS from a file
